@@ -7,7 +7,7 @@ O projeto aborda **análise exploratória, pré-processamento de dados, modelage
 
 ## 📂 Estrutura do Projeto
 
-O trabalho está dividido em quatro partes, cada uma explorando diferentes técnicas e datasets:
+O trabalho está dividido em três partes, cada uma explorando diferentes técnicas e datasets:
 
 ### Parte 1: Exercícios Iniciais (Questões 1-20)  
 Análise exploratória e pré-processamento do dataset **Individual Household Electric Power Consumption**.  
@@ -18,9 +18,6 @@ Aprofundamento na análise de **séries temporais, autocorrelação, redução d
 
 ### Parte 3: Novo Dataset (Questões 26-35)  
 Análise do dataset **Appliances Energy Prediction**, focando em **correlações, regressão linear múltipla, Random Forest** e criação de um **modelo de classificação binária**.
-
-### Parte 4: Orange Data Mining (Questões 36-40)  
-*Opcional* – **não realizada nesta entrega**.
 
 ---
 
