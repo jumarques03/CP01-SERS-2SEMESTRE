@@ -14,7 +14,7 @@ Análise exploratória e pré-processamento do dataset **Individual Household El
 Inclui manipulação de datas, cálculo de médias, visualização de dados e tratamento de valores ausentes.
 
 ### Parte 2: Exercícios Adicionais (Questões 21-25)  
-Aprofundamento na análise de **séries temporais, autocorrelação, redução de dimensionalidade com PCA** e comparação entre modelos de regressão no mesmo dataset.
+Aprofundamento na análise do dataset com **séries temporais, autocorrelação, redução de dimensionalidade com PCA** e comparação entre modelos de regressão.
 
 ### Parte 3: Novo Dataset (Questões 26-35)  
 Análise do dataset **Appliances Energy Prediction**, focando em **correlações, regressão linear múltipla, Random Forest** e criação de um **modelo de classificação binária**.
