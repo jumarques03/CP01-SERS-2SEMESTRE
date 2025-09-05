@@ -16,8 +16,9 @@ As tarefas incluem manipulação de datas, cálculo de médias, visualização d
 ### Parte 2: Exercícios Adicionais (Questões 21-25)  
 Aprofundamento na análise de séries temporais, autocorrelação, redução de dimensionalidade com PCA e comparação entre modelos de regressão no mesmo dataset.
 
-### Parte 3: Novo Dataset (Questões 26-35)  
+### Parte 3: Novo Dataset (Questões 26-35)
 Análise do dataset **Appliances Energy Prediction**, focando em correlações, modelagem com Regressão Linear Múltipla, Random Forest e classificação binária.
+
 ---
 
 ## 📊 Descrição dos Datasets
