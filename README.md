@@ -23,16 +23,32 @@ Análise do dataset **Appliances Energy Prediction**, focando em **correlações
 
 ## 📊 Descrição dos Datasets
 
-Dois datasets foram utilizados na realização dos exercícios:
-
-### 1. Individual Household Electric Power Consumption
+### 1. Individual Household Electric Power Consumption  
 - **Período:** Dez/2006 a Nov/2010 (47 meses)  
 - **Granularidade:** Leituras por minuto (~2 milhões de registros)  
-- **Descrição:** Consumo de energia em uma residência na França, incluindo potência ativa, reativa, voltagem, intensidade e três sub-medidores.  
+- **Descrição geral:** Consumo de energia em uma residência na França, incluindo potência ativa, potência reativa, voltagem, intensidade de corrente e três sub-medidores.  
+- **Principais variáveis:**  
+  - `global_active_power`: Potência ativa global média por minuto (kW)  
+  - `global_reactive_power`: Potência reativa global média por minuto (kVAr)  
+  - `voltage`: Tensão média por minuto (V)  
+  - `global_intensity`: Intensidade da corrente média (A)  
+  - `sub_metering_1`: Cozinha → cargas menores (lava-louças, forno, micro-ondas)  
+  - `sub_metering_2`: Lavanderia → cargas médias (máquina de lavar, secadora, geladeira)  
+  - `sub_metering_3`: Aquecedor de água elétrico e ar-condicionado → cargas maiores  
 - **Observação:** Possui ~1,25% de valores ausentes.  
 
-### 2. Appliances Energy Prediction
+---
+
+### 2. Appliances Energy Prediction  
 - **Período:** ~4,5 meses  
 - **Granularidade:** Leituras a cada 10 minutos  
-- **Descrição:** Consumo de energia de eletrodomésticos monitorado junto a variáveis ambientais (temperatura, umidade interna/externa e clima do aeroporto de Chievres, Bélgica).  
-   
+- **Descrição geral:** Consumo de energia de eletrodomésticos em uma residência, junto a variáveis ambientais internas (temperatura/umidade em diferentes cômodos) e externas (clima do aeroporto de Chievres, Bélgica).  
+- **Principais variáveis:**  
+  - `Appliances`: Energia consumida pelos eletrodomésticos (Wh)  
+  - `lights`: Consumo das luzes da residência (Wh)  
+  - `T1 ... T9`: Temperaturas em diferentes cômodos (°C)  
+  - `RH_1 ... RH_9`: Umidades relativas em diferentes cômodos (%)  
+  - `To`, `Pressure`, `RH_out`, `Wind speed`, `Visibility`, `Tdewpoint`: Variáveis externas do clima  
+- **Observação:** Inclui dados climáticos horários interpolados a cada 10 minutos.  
+
+---
